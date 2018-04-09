@@ -1,8 +1,9 @@
 .sta
-	max-width: 740px
+	max-width: 720px
 	width: 90%
 	margin: 0 auto
-	padding: 250px 0 50px
+	padding: 230px 0 50px
+	outline: 1px solid red
 	+clr
 	&__image
 		width: 307px
@@ -13,36 +14,38 @@
 			height: 100%
 	&__content
 		float: right
-		line-height: 1
-		padding-top: 40px
+		padding-top: 55px
 	&__only
-		font-family: Antiqua 
+		display: inline-block
 		font-weight: 700
 		color: #d24a43 
-		font-size: 50px
-		line-height: 1
+		font-size: 48px
 		margin-bottom: 17px
 		font-family: Antiqua
+		line-height: 0.5em
+		margin-bottom: 27px
 	&__text
 		font-weight: bold
 		color: #626262 
-		font-size: 38px
-		line-height: .5em
+		font-size: 33px
 		margin-bottom: -10px
 		font-family: Antiqua;
-		font-weight: 400 
+		font-weight: 400
+		font-variant: small-caps
+		line-height: 0.5em
+		margin-bottom: 20px
 		b
 			font-weight: 700
-			font-size: 45px
+			font-size: 50px
 			color: #D24A43
-			line-height: .5em
+			font-family: Antiqua;
 	&__gift
 		color: #d86a43
 		font-family: Oswald
-		font-size: 85px
-		font-weight: 500
-		line-height: 1
+		font-size: 87px
+		font-weight: 600
 		position: relative
+		line-height: 0.7em
 		&:before
 			display: block
 			content: ''
@@ -55,7 +58,7 @@
 			position: absolute
 			left: 0
 			margin-left: -122px
-			top: 13px
+			opacity: 0.7
 		&:after
 			display: block
 			content: ''
@@ -64,6 +67,5 @@
 			background: url('../img/ball.png') no-repeat
 			position: absolute
 			background-size: 100% 100%
-			right: -60px
-			top: -300px
-			opacity: 0.7
+			right: -72px
+			top: -331px
